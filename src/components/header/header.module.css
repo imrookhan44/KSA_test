@@ -1,0 +1,50 @@
+.navbar {
+  height: 60px;
+  width: 100%;
+  padding: 10px;
+  background-color: #013775;
+}
+
+.navbar .navHeader {
+  display: inline;
+}
+
+.navbar .navHeader .navLogo {
+  display: inline-block;
+  margin-top: -7px;
+}
+
+.navLogo img {
+  height: 40px;
+  width: 38px;
+  margin-top: 10px;
+}
+
+.navbar .navLinks {
+  display: inline;
+  float: right;
+  font-size: 18px;
+  margin-top: 10px;
+
+}
+
+.navbar .navLinks .loginBtn {
+  display: inline-block;
+  padding: 5px 15px;
+  margin-left: 20px;
+  font-size: 17px;
+  color: rgb(9, 14, 90);
+}
+
+.navbar .navLinks a {
+  padding: 10px 12px;
+  text-decoration: none;
+  font-weight: 550;
+  color: white;
+}
+
+/* Hover effects */
+.navbar .navLinks a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}

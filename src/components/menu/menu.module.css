@@ -1,0 +1,137 @@
+.menu__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  gap: 2rem;
+  margin: 0 auto;
+  background-color: #E6F7FE;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.menu__container__item p {
+  color: #0B3F7A;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.menu__container__item:first-child p {
+  border-bottom: 5px solid #0B3F7A;
+}
+
+.description {
+  margin-top: 20px;
+  width: 50%;
+  margin: 0 auto;
+  background-color: #ECEFF1;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons__item {
+  display: flex;
+}
+
+.icons__item p {
+  color: #0B3F7A;
+  font-size: 16px;
+  font-weight: semi-bold;
+  margin-top: 2px;
+  font-family: Poppins;
+}
+
+.description_text {
+  margin-top: 10px;
+  width: 50%;
+}
+
+.description_text p {
+  color: black;
+  font-size: 16px;
+  font-weight: regular;
+  font-family: Poppins;
+}
+
+.boxes {
+  display: flex;
+  background-color: #ECEFF1;
+  border-radius: 10px;
+  gap: 1rem;
+  margin-top: 10px;
+}
+
+.boxes p {
+  color: #0B3F7A;
+  font-size: 13px;
+  font-weight: semi-bold;
+  background-color: #CBD9E0;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-family: Poppins;
+}
+
+.box {
+  display: flex;
+  background-color: #ECEFF1;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  gap: 1rem;
+}
+
+.box p {
+  color: #0B3F7A;
+  font-size: 13px;
+  font-weight: semi-bold;
+  background-color: #CBD9E0;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: Poppins
+}
+
+.box1 {
+  display: flex;
+  background-color: #ECEFF1;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  gap: 1rem;
+}
+
+.box1 p {
+  color: #0B3F7A;
+  font-size: 13px;
+  font-weight: semi-bold;
+  background-color: #CBD9E0;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: Poppins;
+}
+
+.notifications {
+  display: flex;
+  align-items: center;
+  background-color: #F9FBFF;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.notifications__item p {
+  color: black;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: medium;
+  font-family: Poppins;
+  margin-bottom: 0px !important;
+}

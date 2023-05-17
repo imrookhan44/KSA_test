@@ -1,0 +1,153 @@
+.head__profile {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.head__profile p {
+  color: #0B3F7A;
+  font-size: 44px;
+  font-weight: bold;
+  font-family: Poppins;
+
+}
+
+.profile__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 50%;
+  height: 380px;
+  margin: 0 auto;
+  background-color: #EFE7FC;
+  padding: 20px;
+  border-radius: 40px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.images_div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.images_div .image2 {
+  width: 150px;
+  height: 150px;
+  margin-top: 90px;
+  margin-left: -20px;
+}
+
+.images_div .image1 {
+  position: absolute;
+  top: -50px;
+  width: 300px;
+  height: 300px;
+}
+
+.border_div {
+  position: absolute;
+  top: -20px;
+  width: 270px;
+  height: 270px;
+  border-bottom: #7C34DB solid 10px;
+  border-radius: 5px;
+}
+
+.name_div {
+  position: absolute;
+  top: 260px;
+}
+
+.name_div p {
+  color: #7C34DB;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: Poppins;
+}
+
+.design_image {
+  background-color: #4E5186;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+
+
+}
+
+.design_image .image {
+  width: 20px;
+  height: 20px;
+}
+
+.color_inputs {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.color_inputs .color_inputs__item input {
+  width: 38;
+  height: 48px;
+  border: none !important;
+  outline: none !important;
+}
+
+.modal_header__item p {
+  color: #0B3F7A;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Poppins;
+}
+
+.avatar_text {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.avatar_text p {
+  color: #0B3F7A;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Poppins;
+}
+
+.avatar_images {
+  display: flex;
+  justify-content: space-around;
+}
+
+.avatar_images .avatar_images__item {
+  background-color: #EFEFEF;
+  width: 83px;
+  height: 83px;
+  border-radius: 20px;
+}
+
+
+.color1 {
+  -webkit-appearance: none;
+
+  border-radius: 20px;
+
+}
+
+.color1::-webkit-color-swatch {
+  border-radius: 10px;
+}
+
+.color1::-webkit-color-swatch-wrapper {
+  border-radius: 10px;
+
+}
