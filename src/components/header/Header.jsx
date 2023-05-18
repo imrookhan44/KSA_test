@@ -4,7 +4,7 @@ import logo from './../../assets/logo.png'
 import Reset from '../resetpassword/Reset'
 import ResetPassword from '../resepassword/ResetPassword'
 import Login from '../login/Login'
-import SignUp from '../signup/SIgnup'
+import SignUp from '../signup/SignUp'
 import Profile from '../profile/Profile'
 function Header() {
   const [show, setShow] = useState(1)
